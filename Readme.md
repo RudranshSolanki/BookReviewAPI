@@ -55,7 +55,7 @@ Book Review API
             - body will be like
               ```json
                 {
-                    "rating": 3 (between 0 to 5)
+                    "rating": 3 
                     "review":"good book"
                 }
 
