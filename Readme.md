@@ -15,6 +15,7 @@ Book Review API
     - User
         - to register user use this  "http://localhost:3000/signup"  with post http request
             - in body use json like this
+              ```json
                 {
                     "name":"rudransh",
                     "email":"rudransh@gmail.com",
@@ -22,6 +23,7 @@ Book Review API
                 }
         - to login use this "http://localhost:3000/login" with get http request
             - in body use json like this
+              ```json
                 {
                     "email":"rudransh@gmail.com"
                     "password":"rudransh"
@@ -29,6 +31,7 @@ Book Review API
     - Book
         - to add book use this url "http://localhost:3000/books". with post http request
             - in body use json like this
+              ```json
                 {
                     "title":"The Greatest Gatsby",
                     "author":"F. Scott Fitzgerald",
@@ -36,6 +39,7 @@ Book Review API
                 }
         - to get all books use this url "http://localhost:3000/books" , with get request
             - optional in body to filter by genre and author
+              ```json
                 {
                     "genre":"name of genre",
                     "author":"name of author"
@@ -49,6 +53,7 @@ Book Review API
         - add review in book, use url ""http://localhost:3000/books/:id/reviews" with post request
 
             - body will be like
+              ```json
                 {
                     "rating": 3 (between 0 to 5)
                     "review":"good book"
@@ -57,6 +62,7 @@ Book Review API
     - Review
         - update review , use this url "http://localhost:3000/reviews/:id", with put request and replace ":id" with actual id of review
             - body will be like
+              ```json
                 {
                     "rating": 2,
                     "review": "nice book"
