@@ -1,17 +1,17 @@
-Book Review API
+**Book Review API**
 
 
-- Project setup
+- **Project setup**
     - Make sure node is installed
     - Install dependency using **"npm i"**, this will install all dependency which is used in project
     - Create .env file in root directory with given variables (PORT = 3000 MONGODB_URL = 'mongodb://localhost:27017/BookReviewDB'  JWT_TOKEN = "rudransh")
 
 
-- Run Project Locally
+- **Run Project Locally**
     - open project in vscode and in terminal write **"node server"**, this will start the server
 
 
-- API Requests
+- **API Requests**
     - User
         - to register user use this  "http://localhost:3000/signup"  with post http request
             - in body use json like this
